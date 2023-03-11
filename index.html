@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>form</title>
+
+    </head>
+    <body>
+        <form action=""> 
+            <h2 style="color: black;">Create Account</h2>
+            <div class="name">
+            <div class="first">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="First Name">
+            </div>
+            <div class="last">
+                <label for="nname">Last Name</label>
+                <input type="text" id="nname" placeholder="Last Name">
+            </div>
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" style="width: 390px;">
+            </div>
+            <div class="password">
+            <div class="pass">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" placeholder="Password">
+            </div>
+            <div class="cpass">
+                <label for="cpass">confirm Password</label>
+                <input type="password" id="cpass" placeholder="confirm Password">
+            </div>
+            </div>
+            <div class="genhob">
+            <div class="gen">
+                <label for="gen" class="gender">gender</label>
+                <input type="radio" id="male" name="gender"><label for="male" style="color: black;">male</label>
+                <input type="radio" id="female" name="gender"><label for="female" style="color: black;">female</label>
+            </div>
+            <div class="hob">
+                <label for="hobb" class="hobbies">hobbies</label>
+                <input type="checkbox" id="mus"><label for="mus" style="color: black;">music</label>
+                <input type="checkbox" id="spo" ><label for="spo" style="color: black;">sport</label>
+                <input type="checkbox" id="tra" ><label for="tra" style="color: black;">travel</label>
+                <input type="checkbox" id="mov" ><label for="mov" style="color: black;">movie</label>
+            </div>
+        </div>
+        <div class="sni">
+            <div class="soi">
+                <label for="soi">Source of income</label>
+                <select>
+                    <option value="">Employed</option>
+                    <option value="">Un-Employed</option>
+                    <option value="">Student</option>
+                    <option value="">Part time Employed</option>
+                </select>
+            </div>
+                <div class="in">
+                    <label for="" >income</label>
+                    <input type="range">
+                </div>
+        </div>
+            <div class="upl">
+                <div class="upp">
+                    <label for="">Upload Profile picture</label>
+                    <input type="file" style="color: black;">
+                </div>
+                <div class="age">
+                    <label for="Age">Age</label>
+                    <input type="number" id="Age" placeholder="Age">
+                </div>
+            </div>
+                <div class="bio">
+                    <label for="Bio">Bio</label>
+                    <textarea name="bio" id="" cols="80" rows="4"></textarea>
+                </div>
+
+                <div class="sub">
+                    <input type="submit" value="create">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
