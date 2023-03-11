@@ -1,0 +1,102 @@
+form{
+    width: 400px;
+    background-color: rgba(74, 74, 78, 0.226);
+    margin: 10px 10px 10px 10px;
+    padding:5px ;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgb(235, 206, 206);
+    font-size: small;
+    color: rgb(4, 160, 4);
+    border: 20px solid;
+    border-color: rgb(1, 90, 75);
+}
+
+h2{
+    margin-top: 0px;
+    padding: 20px;
+    background-color: rgb(227, 232, 235);
+    justify-content: center;
+    text-align: center;
+}
+.name{
+    display: flex;
+    margin-block-end: 10px;
+    justify-content: space-between;
+}
+.first{
+    margin-right: 8px;
+    display: inline-grid;
+}
+.last{
+    margin-right: 8px;
+    display: inline-grid;
+}
+.email{
+    margin-block-end: 10px;
+    display: inline-grid;
+    width: 100%;
+}
+.password{
+    display: flex;
+    margin-block-end: 10px;
+    justify-content: space-between;
+}
+.pass{
+    margin-right: 8px;
+    display: inline-grid;
+}
+.cpass{
+    margin-right: 8px;
+    display: inline-grid;
+}
+.genhob{
+    display: flex;
+    margin-block-end: 10px;
+    justify-content: space-between;
+    
+}
+.gen{
+    margin-right: 8px;
+    display: inline-block;
+}
+.gender{
+    display: grid;
+}
+.hob{
+    margin-right: 8px;
+    display: inline-block;
+}
+.hobbies{
+    display: grid;
+}
+.sni{
+    display: flex;
+    margin-block-end: 10px;
+    justify-content: space-between;
+}
+.soi{
+    margin-right: 8px;
+    display: inline-grid;
+}
+
+.in{
+    margin-right: 8px;
+    display: inline-grid;
+}
+.upl{
+    display: flex;
+    margin-block-end: 10px;
+    justify-content: space-between;
+}
+.age{
+    margin-left: -75px;
+}
+.bio{
+    margin-block-end: 10px;
+    display: inline-grid;
+}
+.sub{
+    padding: 10px;
+    background-color: rgb(227, 232, 235);
+    text-align: right;
+}
